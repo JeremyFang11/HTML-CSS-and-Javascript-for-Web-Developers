@@ -1,0 +1,106 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	background-color: green;
+}
+
+h1 {
+	font-size: 200%;
+	text-align: center;
+	background-color: gray;
+	margin: 25px 0 25px 0;
+}
+
+.body-content {
+	float: left;
+	padding: 3% 5% 3% 5%;
+	width: 100%;
+}
+
+#chicken {
+	background-color: pink;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+	padding: 5px;
+	clear: left;
+	float: right;
+	text-align: center;
+	width: 33.33%;
+	font-size: 1.3em;
+}
+
+#beef {
+	background-color: FireBrick;
+	color: white;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+	padding: 5px;
+	clear: left;
+	float: right;
+	text-align: center;
+	width: 33.33%;
+	font-size: 1.3em;
+}
+
+#sushi {
+	background-color: wheat;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+	padding: 5px;
+	clear: left;
+	float: right;
+	text-align: center;
+	width: 33.33%;
+	font-size: 1.3em;
+}
+
+@media (min-width: 992px) {
+	.body4-lg {
+		background-color: Grey;
+		border: 1px solid black;
+		margin: 1%;
+		float: left;
+		text-align: left;
+		width: 31.33%;
+		overflow: auto;
+	}
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+	.body6-md {
+		background-color: Grey;
+		border: 1px solid black;
+		margin: 2%;
+		float: left;
+		text-align: left;
+		width: 46%;
+		overflow: auto;	
+	}
+
+	.body12-md {
+		background-color: Gray;
+		border: 1px solid black;
+		margin: 2%;
+		float: left;
+		text-align: left;
+		width: 96%;
+		overflow: auto;	
+	}
+}
+
+@media (max-width: 767px) {
+	.body12-sm {
+		background-color: Grey;
+		border: 1px solid black;
+		margin: 2% 5% 2% 5%;
+		float: left;
+		text-align: left;
+		width: 90%;
+		overflow: auto;
+	}
+}
