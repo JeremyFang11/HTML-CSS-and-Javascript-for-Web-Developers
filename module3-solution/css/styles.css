@@ -1,0 +1,41 @@
+#header-nav {
+	background: gray;
+	border-bottom: 2px black solid;
+}
+
+.navbar-header h1, .navbar-header h2, .navbar-header h3 {
+	padding-bottom: 5px;
+	float: left;
+}
+
+.container {
+	padding: 0;
+}
+
+.container .body-title p {
+	font-size: 2em;
+	padding-top: 5px;
+	text-align: center;
+}
+
+.container .content {
+	box-sizing: border-box;
+	background: gray;
+	padding: 10px;
+}
+
+.container .content h1 {
+	font-size: 1.5em;
+	text-align: center;
+}
+
+.bg-same {
+	background: gray;
+}
+
+.icon-bar {
+	text-align: center;
+	background-color: gray;
+	border-bottom: 1px solid black;
+	width: 100%;
+}
